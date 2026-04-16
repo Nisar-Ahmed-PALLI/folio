@@ -1,0 +1,23 @@
+body{
+     text-align: center;
+     background-color: #A1D8B5;
+}
+
+ul{
+     list-style-type: none;
+}
+
+.call{
+     border: 1px solid black;
+}
+
+.social{
+     margin-top: 20px;
+     border: 1px solid black;
+     padding: 30px;
+     margin-bottom: 40px;
+}
+
+#h1{
+     margin-top: 80px;
+}

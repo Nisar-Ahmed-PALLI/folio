@@ -1,0 +1,27 @@
+
+body{
+     background-color: #A1D8B5;
+
+}
+
+ul{
+     list-style-type: none;
+     /* margin-bottom: 20px; */
+}
+
+i{
+     color: red;
+}
+
+h1{
+     text-align: center;
+}
+#all{
+     border: 1px solid black;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+
+.lang{
+     padding: 20px;
+}
