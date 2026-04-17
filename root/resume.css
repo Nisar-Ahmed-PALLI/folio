@@ -3,6 +3,10 @@ body{
      background-color: #CFE7F8;
 }
 
+h1{
+     color: crimson;
+}
+
 /* HEADING */
 #head{   
 font-family: "Noto Serif", serif;
@@ -16,7 +20,7 @@ font-family: "Noto Serif", serif;
 
 .contact h3{
      margin-left: 10px;
-     color: orangered;
+     
 }
 
 

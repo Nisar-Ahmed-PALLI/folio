@@ -4,13 +4,21 @@ body{
 
 }
 
+h1{
+     color: crimson;
+}
+
 ul{
      list-style-type: none;
      /* margin-bottom: 20px; */
 }
 
-i{
+li{
      color: red;
+}
+
+.mg{
+     color: green;
 }
 
 h1{
@@ -22,6 +30,20 @@ h1{
      padding: 20px;
 }
 
-.lang{
-     padding: 20px;
+.lang i{
+     padding: 10px;
+}
+
+.back i{
+     padding: 10px;
+}
+
+.front i {
+     padding: 10px;
+     color: red;
+}
+
+.sor i{
+     padding:10px ;
+     color: red;
 }
