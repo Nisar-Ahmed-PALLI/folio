@@ -1,7 +1,9 @@
 
 body{
-     background-color: #CFE7F8;
+     background-color: #B2DCE2;
 }
+
+
 
 h1{
      color: crimson;
@@ -10,12 +12,40 @@ h1{
 /* HEADING */
 #head{   
 font-family: "Noto Serif", serif;
+margin-top: 40px;
+margin-bottom: 0px;
+background-color: black;
+color: crimson;
 }
 
 
 /* contact */
 .contact{
      border: 1px solid black;
+     background-color: #B0D19A;
+     width: 620px;
+     height: 180px;
+     border-bottom-right-radius: 50px;
+     padding: 20px 20px;
+}
+
+.contact i{
+     opacity: 0;
+     
+}
+
+.contact:hover{
+     box-shadow: 2px 2px 6px 4px rgb(159, 25, 25);
+     cursor: pointer;
+     color:green;
+     font-family: "Noto Serif", serif;
+
+}
+
+.contact:hover i {
+     opacity: 1;
+     color: blue;
+     font-size: 1.4rem;
 }
 
 .contact h3{
@@ -27,22 +57,67 @@ font-family: "Noto Serif", serif;
 /* objective */
 .objective{
      border: 1px solid black;
-     margin-top: 20px;
+     font-family: "Noto Serif", serif;
+     /* margin-top: 20px; */
      padding: 20px;
+     background-color: #EF8182;
 }
 
 
 /* information */
 .info{
      border: 1px solid;
-     margin-top: 20px;
+     padding: 20px;
+     background-color: #F4A3F3;
+}
+
+.info:hover{
+     cursor: pointer;
+     font-family: "Noto Serif", serif;
+     font-size: 1rem;
+     color:teal;
+
+}
+.info i{
+     opacity: 0;
+}
+.info:hover i{
+     opacity: 1;
+     cursor:pointer;
+     font-size: 1.4rem;
+     color: red;
+     
+}
+
+
+table,th,td{
+     border: 1.5px solid yellow;
+    padding: 20px 80px 20px 80px;
+     /* width: 350px; */ 
+     height: 50px;
+     color: indigo;
+
+}
+
+.cont{
+     display: flex;
+     justify-content: center;
+     font-family: "Noto Serif", serif;
+
+     text-align: center;
      padding: 20px;
 }
 
 .prof{
      border: 1px solid;
-     margin-top: 30px;
+     /* margin-top: 30px; */
      padding: 20px;
+     font-family: "Noto Serif", serif;
+
+}
+
+.grad{
+     color: red;
 }
 
 
@@ -50,17 +125,47 @@ font-family: "Noto Serif", serif;
 /* experience */
 .exp{
      border: 1px solid;
-     margin-top: 30px;
+     /* margin-top: 30px; */
      padding: 20px;
+     /* font-family: "Noto Serif", serif; */
+     background-color: #013e37;
+     color: #FFEFB3;
+     opacity: 0.8;
+}
+
+.exp:hover{
+     opacity: 1;
+     cursor: pointer;
+     font-family: "Noto Serif", serif;
+
+}
+
+.exp i{
+     opacity: 0;
+     
+}
+
+.exp:hover i{
+    opacity: 1;
+    color:#FFEFB3;
 }
 
 
 /* language */
 .language{ 
      border: 1px solid;
-     margin-top: 20px;
      padding-left: 20px;
+     background-color: #4281AA;
+     color: #FFEDA3;
+     opacity: 0.8;
 } 
+
+.language:hover{
+     opacity: 1;
+     font-family: "Noto Serif", serif;
+
+
+}
 
 .digree{
      margin-right: 80px;

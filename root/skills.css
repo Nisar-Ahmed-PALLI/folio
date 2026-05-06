@@ -2,40 +2,79 @@
 body{
      background-color: #A1D8B5;
 
+
 }
+
+h2{
+     font-family: "Rubik", sans-serif;
+     color: mediumvioletred;
+     background-color: black;
+     box-shadow: 3px 7px 8px 1px;
+}
+
+h3{
+     border: 1px solid black;
+     opacity: 0.8;
+     margin-bottom: 20px;
+}
+
+h3:hover {
+     box-shadow:2px 7px 6px  crimson ;
+     font-size: 1.3rem;
+     color: blueviolet;
+     border-top: 2px solid yellow;
+     opacity: 1;
+     cursor: pointer;
+     font-family: "Rubik", sans-serif;
+}
+
+h3 i{
+     opacity: 0;
+}
+
+h3:hover i {
+     opacity: 1;
+}
+
+
 
 h1{
      color: crimson;
+     text-align: center;
 }
 
-ul{
-     list-style-type: none;
-     /* margin-bottom: 20px; */
-}
-
-li{
-     color: red;
-}
 
 .mg{
      color: green;
 }
 
-h1{
-     text-align: center;
-}
 #all{
      border: 1px solid black;
      margin-bottom: 20px;
-     padding: 20px;
+     padding: 10px;
+     
 }
 
+
+/* Icons  */
+/* .lang{
+     padding: 40px;
+     margin-top: 20px;
+} */
 .lang i{
      padding: 10px;
+     color: red;
+     opacity: 0;
+}
+
+.lang i:hover{
+     color: black;
+     opacity: 1;
 }
 
 .back i{
      padding: 10px;
+     color: red;
 }
 
 .front i {
@@ -46,4 +85,9 @@ h1{
 .sor i{
      padding:10px ;
      color: red;
+}
+
+.vs{
+     color: blue;
+     font-size: 1.2rem;
 }
